@@ -1,6 +1,6 @@
 # Concept Scripts
 
-Scripts in this repository may be shared under the terms of [Attribution 4.0 International (CC BY 4.0)] (https://creativecommons.org/licenses/by/4.0/). Note the attribution requirement.
+Scripts in this repository may be shared under the terms of [Attribution 4.0 International (CC BY 4.0)] (https://creativecommons.org/licenses/by/4.0/). Please note the attribution requirement, as long as this is met any of these scripts may be used without any other restriction.
 
 These are primarily intended as example scripts.
 
