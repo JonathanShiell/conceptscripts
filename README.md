@@ -12,3 +12,6 @@ These are primarily intended as example scripts.
 Requires Python3 to run (https://www.python.org/downloads/). 
 
 This may be run from the command line as `python doctor_nim_original_color.py` when set to the directory in which the file is saved.
+
+## Memory-efficient 100 Doors (Python)
+`efficient.py` is a script that solves the 100 doors problem using bitwise arithmetic. Runs with 100 (the classic value) by default, but accepts a command line value that over-rides the count of 100 doors.
