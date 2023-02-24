@@ -2,7 +2,7 @@
 
 Scripts in this repository may be shared under the terms of [Attribution 4.0 International (CC BY 4.0)] (https://creativecommons.org/licenses/by/4.0/). Please note the attribution requirement, as long as this is met any of these scripts may be used without any other restriction.
 
-These are primarily intended as example scripts.
+These are primarily intended as example scripts, both in terms of computing concepts and as small examples of my work in different languages etc.
 
 ## Binary Search Cat 
 `Binary Search cat.sb3` is a scratch program with a cat, that will guess an integer of your choice between 1 and 100 using the binary search algorithm. This requires Scratch to run. See https://scratch.mit.edu/ to run Scratch in your browser, or obtain it for offline use (https://scratch.mit.edu/download).
