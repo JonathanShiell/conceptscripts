@@ -17,4 +17,4 @@ This may be run from the command line as `python doctor_nim_original_color.py` w
 `efficient.py` is a script that solves the 100 doors problem using bitwise arithmetic. Runs with 100 (the classic value) by default, but accepts a command line value that over-rides the count of 100 doors. The efficiency is achieved by using 1 bit or the equivalent to represent each door (Boolean types may use at least one byte).
 
 ## `charNode` (directory)
-Contains a linked-list solution in C to the issue that taking a string as input requires that the length of a string-equivalent (character array) must be specified when declared. A linked list does not require its length to be specified when the first node is declared.
+Contains a linked-list solution in C to the issue that taking a string as input requires that the length of a string-equivalent (character array) must be specified when declared. A linked list does not require its length to be specified when the first node is declared. If you wish to run it, please compile from `charNodeTest.c`.
