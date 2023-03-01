@@ -15,7 +15,9 @@ This may be run from the command line as `python doctor_nim_original_color.py` w
 
 ## Memory-efficient 100 Doors 
 **(C and Python versions)**  
-`efficient.py` is a script that solves the 100 doors problem using bitwise arithmetic. Runs with 100 (the classic value) by default, but accepts a command line value that over-rides the count of 100 doors. The efficiency is achieved by using 1 bit or the equivalent to represent each door (Boolean types may use at least one byte). Requires Python as per Dr Nim.
+`efficient.py` is a script that solves the 100 doors problem using bitwise arithmetic. Runs with 100 (the classic value) by default, but accepts a command line value that over-rides the count of 100 doors. The efficiency is achieved by using 1 bit or the equivalent to represent each door (Boolean types may use at least one byte). This implementation requires Python as per Dr Nim.  
+
+`100doors_efficient.c` A C version that uses 1 bit per door in an `unsigned long long int` type (unsigned long integer), using arrays to be able to cover more than 64 doors. The n-th bit corresponds to door number n + 1.
 
 ## `charNode` (directory)
 Contains a linked-list solution in C to the issue that taking a string as input requires that the length of a string-equivalent (character array) must be specified when declared. A linked list does not require its length to be specified when the first node is declared. If you wish to run it, please compile from `charNodeTest.c`.
