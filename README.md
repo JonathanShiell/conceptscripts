@@ -22,4 +22,4 @@ This may be run from the command line as `python doctor_nim_original_color.py` w
 `100doors_efficient.c` A C version that uses 1 bit per door in an `unsigned long long int` type (unsigned long integer), using arrays to be able to cover more than 64 doors. The n-th bit corresponds to door number n + 1.
 
 ## `charNode` (directory)
-Contains a linked-list solution in C to the issue that taking a string as input requires that the length of a string-equivalent (character array) must be specified when declared. A linked list does not require its length to be specified when the first node is declared. If you wish to run it, please compile from `charNodeTest.c`.
+Contains a linked-list solution in C to the issue that taking a string as input requires that the length of a string-equivalent (character array) must be specified when declared. A linked list does not require its length to be specified when the first node is declared. If you wish to run it, please compile from `charNodeTest.c`. This file automatically links to `charNode.c` at compile-time.
